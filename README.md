@@ -276,69 +276,83 @@ sed -n -e '$p' file23
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-03-51](https://github.com/user-attachments/assets/ce3672a1-9a7c-4f94-86b6-3b60877098d2)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-15-53](https://github.com/user-attachments/assets/bd1225fd-3f05-40c5-8e30-a6955fc5aa55)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-18-51](https://github.com/user-attachments/assets/51e85db6-ef58-493f-9df5-7153db40616b)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-20-08](https://github.com/user-attachments/assets/b2e8ec91-4732-4cd7-a1c4-0b43a9519398)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-22-51](https://github.com/user-attachments/assets/82622cad-113a-4bfd-9999-0026e3dd178d)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-26-16](https://github.com/user-attachments/assets/97ee75b3-0a1c-41b2-8227-da79a1ce74f4)
 
 
 seq 10 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-28-24](https://github.com/user-attachments/assets/534a93d0-b706-4b1e-aff7-7604cb2961a8)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-29-36](https://github.com/user-attachments/assets/c7ec22e3-d74c-4271-ae52-3050fee55ad1)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-30-41](https://github.com/user-attachments/assets/a3de6eed-6154-42e5-988e-fcc790d425c7)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-32-24](https://github.com/user-attachments/assets/62f3fc97-602a-470d-a0b1-0479499109c2)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-33-19](https://github.com/user-attachments/assets/245b70ee-6efc-4cb9-bcd8-7cb670471d81)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-34-13](https://github.com/user-attachments/assets/49919092-734e-49ec-9496-8a9c4030aa0e)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 22-35-56](https://github.com/user-attachments/assets/faa1776f-2b95-46fe-bc9b-5204835edc80)
 
 
 sed -n '2,4{s/$/*/;p}' file23
 
+![Screenshot from 2025-03-06 22-37-08](https://github.com/user-attachments/assets/ea32d9e7-7bc0-4e3b-973f-0954845d9854)
 
 #Sorting File content
 cat > file21
