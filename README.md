@@ -366,6 +366,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![Screenshot from 2025-03-07 14-31-40](https://github.com/user-attachments/assets/2546cdb3-64ee-4ad5-8140-c92481d9c8bc)
 
 cat > file22
 ```
@@ -379,12 +380,15 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![Screenshot from 2025-03-07 14-37-35](https://github.com/user-attachments/assets/6bf6d1f3-1dc4-4bda-8221-9a1388199fe0)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+
+![Screenshot from 2025-03-07 14-46-54](https://github.com/user-attachments/assets/f84a2e11-bbd2-43f6-bb19-0067fa6e0b2c)
 
 cat < urllist.txt
 ```
