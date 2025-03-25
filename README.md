@@ -4,8 +4,8 @@ Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 ``
-### NAME   : MANASA S
-### REF NO : 212224220059
+### NAME   : Thirunavukkarasu Meenakshisundaram
+### REF NO : 212224220117
 
 # AIM:
 To practice Linux Commands and Shell Scripting
